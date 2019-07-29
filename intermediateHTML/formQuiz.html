@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Quiz</title>
+</head>
+<body>
+    <div>
+        <h1>Register</h1>
+        <div>
+            <form>
+                <div>
+                    <label for="first">First Name:</label>
+                    <input id="first" type="text" name="first" placeholder="John" required>
+                    <label for="last">Last Name:</label>
+                    <input id="last" type="text" name="last" placeholder="Smith" required>
+                </div>
+                <!-- Give the inputs the same name to force user to only check one-->
+                <div>
+                    <label>Gender: </label>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="M">
+                    <label for="female"> Female</label>
+                    <input type="radio" id="female" name="gender" value="F">
+                    <label for="other"> Other</label>
+                    <input type="radio" id="other" name="gender" value="OTHER">
+                </div>
+                <div>
+                    <label for="emailAddress">Email: </label>
+                    <input id="emailAdress" type="email" name="email" placeholder="Email" required>
+                    <label for="password">Password: </label>
+                    <input id="password" type="password" name="password" pattern=".{5,10}" title="Password must be between 
+                    5 and 10 characters." placeholder="Password" required>
+                </div>
+                <div>
+                    <label>Birthday:
+                        <select name="month">
+                            <option value="month">Month</option>
+                            <option value="aug">August</option>
+                            <option value="sep">September</option>
+                            <option value="oct">October</option>
+                        </select>
+                        <select name="day">
+                            <option value="day">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <select name="year">
+                            <option value="year">Year</option>
+                            <option value="91">1991</option>
+                            <option value="92">1992</option>
+                            <option value="93">1993</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label for="agree">I agree to the terms. </label>
+                    <input type="radio" id="agree">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
