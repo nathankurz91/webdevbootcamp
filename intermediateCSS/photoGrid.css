@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Cinzel', serif;
+    border: 2px solid rgba(255, 98, 98, 0.3);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 1.66%;
+    padding-bottom: 5px;
+    width: 30%;
+}
+
+img {
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+}

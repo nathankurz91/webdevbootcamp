@@ -1,0 +1,27 @@
+body {
+    border: 20px solid rgb(189, 189, 189);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.specialP {
+    border-left: 5px solid rgb(189, 189, 189);
+    padding: 5px;
+}
+
+hr {
+    margin: 20px;
+    height: 2px;
+    fill: rgb(189, 189, 189);
+}
